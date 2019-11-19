@@ -56,7 +56,7 @@ body {
 }
 
 .image {
-    background-image: url("women.jpg");
+    background-image: url(HumanRightsPics/women.jpg);
     height: 80%;
     background-position: center;
     background-repeat: no-repeat;
@@ -76,7 +76,7 @@ body {
 }
 
 .parallax1 {
-    background-image: url("flag.jpg");
+    background-image: url(HumanRightsPics/women.jpg);
     height: 80%;
     background-position: center;
     background-repeat: no-repeat;
@@ -91,7 +91,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     flex-direction: row;
-    background: url(buildflag.jpg);
+    background: url(HumanRightsPics/buildflag.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -101,7 +101,7 @@ body {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    background: url(women1.jpg);
+    background: url(HumanRightsPics/women1.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -111,7 +111,7 @@ body {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    background: url(floweshake.jpg);
+    background: url(HumanRightsPics/floweshake.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
