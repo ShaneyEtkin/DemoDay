@@ -83,3 +83,13 @@ body {
     position: relative;
     background-attachment: fixed;
 }
+
+.parallax2 {
+    background-image: url("https://greenglobe.com/wp-content/uploads/2018/08/home-pic-1.jpg");
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}

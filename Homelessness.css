@@ -84,3 +84,34 @@ body {
     position: relative;
     background-attachment: fixed;
 }
+
+.parallax2 {
+    background-image: url("https://nfg-sofun.s3.amazonaws.com/uploads/project/photo/32999/poster_board_AdobeStock_67677458.jpeg");
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.resources {
+    color: #FFF4D1;
+}
+
+.button:hover {
+    background-color: cadetblue;
+    }
+.button {
+    background-color:#052C5B;
+    border: 2px solid;
+    color:black;
+    padding: 15px 25px;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 16px;
+    font-family: fantasy;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    }
