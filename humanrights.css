@@ -56,7 +56,7 @@ body {
 }
 
 .image {
-    background-image: url("https://www.sciencealert.com/images/2019-09/processed/agw_topics_600.jpg");
+    background-image: url(HumanRightsPics/women.jpg);
     height: 80%;
     background-position: center;
     background-repeat: no-repeat;
@@ -67,6 +67,7 @@ body {
 
 .image-text {
     text-align: center;
+    font-size: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -75,7 +76,7 @@ body {
 }
 
 .parallax1 {
-    background-image: url("http://hdwpro.com/wp-content/uploads/2016/01/Beautiful-Green-Forest.jpeg");
+    background-image: url(HumanRightsPics/women.jpg);
     height: 80%;
     background-position: center;
     background-repeat: no-repeat;
@@ -85,30 +86,67 @@ body {
 }
 
 .textarea {
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 20px;
+    padding: 80px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     flex-direction: row;
+    background: url(HumanRightsPics/buildflag.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
+
+.textarea2 {
+    padding: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background: url(HumanRightsPics/women1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.textarea3 {
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background: url(HumanRightsPics/floweshake.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
 
 .head {
     margin-left: 350px;
     margin-right: 350px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     margin-top: 20px;
     font-size: 20px;
     text-align: center;
+    color: white;
 }
 
 .bulletpoint {
     width: 500px;
     height: 100px;
-    margin: 10px;
+    margin: 20px;
     background-color: white;
     padding: 20px;
+}
+
+.heading2 {
+    color: white;
+    font-size: 20px;
+}
+
+.bulletpoint2 {
+    width: 500px;
+    height: 50px;
+    margin: 20px;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
 }
