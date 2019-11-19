@@ -12,7 +12,7 @@ main {
     margin: 0 auto;
 }
 h1 {
-    color: floralwhite;
+    color: #CA9900;
     text-align: center;
 }
 
@@ -52,11 +52,11 @@ h1 {
 
 body {
     margin: 0;
-    background-color: #003f31 ;
+    background-color: rgb(0, 9, 48);
 }
 
 .image {
-    background-image: url("https://nca2014.globalchange.gov/sites/report/files/images/web-large/photo-3-hi_2.jpg");
+    background-image: url("https://www.wnpr.org/sites/wnpr/files/styles/x_large/public/201901/3208994775_17639ae645_o.jpg");
     height: 80%;
     background-position: center;
     background-repeat: no-repeat;
@@ -71,11 +71,12 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: floralwhite;
+    color: #ECB300;
+    font-weight: bold;
 }
 
 .parallax1 {
-    background-image: url("http://hdwpro.com/wp-content/uploads/2016/01/Beautiful-Green-Forest.jpeg");
+    background-image: url("https://mediad.publicbroadcasting.net/p/shared/npr/styles/x_large/nprshared/201805/226273734.jpg");
     height: 80%;
     background-position: center;
     background-repeat: no-repeat;
