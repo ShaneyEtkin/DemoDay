@@ -1,0 +1,114 @@
+p {
+    text-align: center;
+}
+
+ul {
+    overflow: auto;
+}
+
+main {
+    clear:right;
+    width: 50%;
+    margin: 0 auto;
+}
+h1 {
+    color: floralwhite;
+    text-align: center;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: black;
+}
+
+.navbar a {
+    font-family:monospace;
+    font-size: 15;
+    color: floralwhite;
+    text-decoration: none;
+}
+.navbar li:first-child {
+    margin-right: auto;
+    padding-left: 0;
+}
+.navbar li {
+    padding: 10px 10px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 500px){
+    .navbar a {
+    float:right;
+    display: block;}
+}
+
+body {
+    margin: 0;
+    background-color: 1B5187;
+}
+
+.image {
+    background-image: url("https://www.sciencealert.com/images/2019-09/processed/agw_topics_600.jpg");
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.image-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: floralwhite;
+}
+
+.parallax1 {
+    background-image: url("http://hdwpro.com/wp-content/uploads/2016/01/Beautiful-Green-Forest.jpeg");
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.textarea {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.head {
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.bulletpoint {
+    width: 500px;
+    height: 100px;
+    margin: 10px;
+    background-color: white;
+    padding: 20px;
+}
