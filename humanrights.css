@@ -87,6 +87,8 @@ body {
 
 .textarea {
     padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -141,3 +143,12 @@ body {
     font-size: 20px;
 }
 
+.bulletpoint2 {
+    width: 500px;
+    height: 50px;
+    margin: 20px;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+}
