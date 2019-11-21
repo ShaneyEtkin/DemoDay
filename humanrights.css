@@ -39,7 +39,7 @@ h1 {
     padding-left: 0;
 }
 .navbar li {
-    padding: 10px 10px;
+    padding: 10px 15px;
     text-align: center;
 }
 
@@ -94,6 +94,7 @@ body {
     background: url(HumanRightsPics/buildflag.jpg);
     background-size: cover;
     background-attachment: fixed;
+    line-height: 22px
 }
 
 .textarea2 {
@@ -123,17 +124,25 @@ body {
     margin-right: 350px;
     margin-bottom: 50px;
     margin-top: 20px;
-    font-size: 20px;
+    padding: 30px;
+    font-size: 25px;
     text-align: center;
     color: white;
+    background-color: #2c6379;
+    opacity: 0.9;
+    border-radius: 12px;
 }
 
 .bulletpoint {
     width: 500px;
-    height: 100px;
+    height: 130px;
     margin: 20px;
     background-color: white;
     padding: 20px;
+    line-height: 25px;
+    border-radius: 12px;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .heading2 {
