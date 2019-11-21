@@ -93,3 +93,25 @@ body {
     position: relative;
     background-attachment: fixed;
 }
+
+.button:hover {
+    background-color: cadetblue;
+    }
+.button {
+    background-color:#052C5B;
+    border: 2px solid;
+    color:black;
+    padding: 15px 25px;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 16px;
+    font-family: fantasy;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    }
+
+.tailend {
+    margin: 20px;
+    padding: 20px;
+}
