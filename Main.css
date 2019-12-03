@@ -1,5 +1,7 @@
+
 p {
     text-align: center;
+    font-size: 20px;
 }
 
 ul {
@@ -39,7 +41,7 @@ h1 {
     padding-left: 0;
 }
 .navbar li {
-    padding: 10px 10px;
+    padding: 10px 15px;
     text-align: center;
 }
 
@@ -52,10 +54,10 @@ h1 {
 
 body {
     margin: 0;
-    background-color: FBE6AD;
+    background-color: rgb(0, 9, 48);
 }
 
-.image {
+.image-main {
     background-image: url("https://linkbookmarking.com/wp-content/uploads/2018/08/high_quality_wallpaper_HD_1080_IDS_1159243.jpg");
     height: 80%;
     background-position: center;
@@ -71,7 +73,13 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: floralwhite;
+    color: white;
+    font-weight: bold;
+    background-color: #2c6379;
+    opacity: 0.9;
+    border-radius: 12px;
+    padding: 20px;
+    line-height: 29px;
 }
 
 .parallax1 {
@@ -82,4 +90,8 @@ body {
     background-size: cover;
     position: relative;
     background-attachment: fixed;
+}
+
+.button a {
+    color: white;
 }
