@@ -180,3 +180,12 @@ body {
     margin-left: 40%;
     margin-right: 40%;
     }
+
+    .parallax4 {
+        background-image: url("https://d4804za1f1gw.cloudfront.net/wp-content/uploads/sites/16/2016/12/29111036/iStock-92023785.jpg");
+        height: 80%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        background-attachment: fixed;
