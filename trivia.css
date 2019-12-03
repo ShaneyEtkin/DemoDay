@@ -55,6 +55,15 @@
   margin-bottom: 20px; 
   padding: 30px;
   background-color: lightblue;
+<<<<<<< HEAD
   width: 800px;
 }
 
+=======
+}
+
+h1{
+  color: black;
+  font-size: 25px;
+}
+>>>>>>> 8f2e1e06ae96ab553e4d465aac7b507d5051ea0a
