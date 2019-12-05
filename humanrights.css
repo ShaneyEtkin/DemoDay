@@ -165,10 +165,10 @@ body {
 }
 
 .button:hover {
-    background-color: cadetblue;
+    background-color: #57a8be;
     }
 .button {
-    background-color:#82c0d1;
+    background-color:rgb(56, 134, 170);
     border: 2px solid;
     color:black;
     padding: 15px 25px;
