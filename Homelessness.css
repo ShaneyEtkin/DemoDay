@@ -81,7 +81,7 @@ body {
     line-height: 29px;
 }
 
-.parallax1 {
+.parallax4 {
     background-image: url("https://mediad.publicbroadcasting.net/p/shared/npr/styles/x_large/nprshared/201805/226273734.jpg");
     height: 80%;
     background-position: center;
@@ -119,7 +119,7 @@ body {
     background-color: cadetblue;
     }
 .button {
-    background-color:whitesmoke;
+    background-color:#d6faff;
     border: 1px solid;
     color:black;
     padding: 40px 55px;
