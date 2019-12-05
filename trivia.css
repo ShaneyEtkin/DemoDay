@@ -1,42 +1,12 @@
-#myDIV1 {
+#myDIV1, #myDIV2, #myDIV3, #myDIV4 ,#myDIV5{
     display: none;
     width: 100%;
     padding: 50px 0;
     text-align: center;
-    background-color: lightblue;
+    background-color: #197d9e;
     margin-top: 20px;
-  }
-  #myDIV2 {
-    display: none;
-    width: 100%;
-    padding: 50px 0;
-    text-align: center;
-    background-color: lightblue;
-    margin-top: 20px;
-  }
-  #myDIV3 {
-    display: none;
-    width: 100%;
-    padding: 50px 0;
-    text-align: center;
-    background-color: lightblue;
-    margin-top: 20px;
-  }
-  #myDIV4 {
-    display: none;
-    width: 100%;
-    padding: 50px 0;
-    text-align: center;
-    background-color: lightblue;
-    margin-top: 20px;
-  }
-  #myDIV5 {
-    display: none;
-    width: 100%;
-    padding: 50px 0;
-    text-align: center;
-    background-color: lightblue;
-    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
   }
 
   p-main {
@@ -45,16 +15,25 @@
   }
 
 .directions {
-  background-color: lightyellow;
+  background-color: #108272;
   padding: 100px;
   text-align: center;
 }
 
 .question{
-  margin-top: 20px;
-  margin-bottom: 20px; 
+  margin: 20px auto 20px auto;
   padding: 30px;
-  background-color: lightblue;
+  background-color: #197d9e;
   width: 800px;
+  font-size: 20px;
+  color: #F4D03F;
 }
-
+ button {
+   padding: 10px 20px 10px 20px;
+   border-radius: 5px;
+ }
+ .space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }

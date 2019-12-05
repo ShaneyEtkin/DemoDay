@@ -1,46 +1,29 @@
 function one() {
-    var x = document.getElementById("myDIV1");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
+  findout("myDIV1");
 }
 
 function two() {
-  var x = document.getElementById("myDIV2");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
+  findout("myDIV2");
 }
 
 
 function three() {
-  console.log('Function2')
-  var x = document.getElementById("myDIV3");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
+  findout("myDIV3");
 }
 
-
 function four() {
-  var x = document.getElementById("myDIV4");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
+  findout("myDIV4");
 }
 
 
 function five() {
-  var x = document.getElementById("myDIV5");
-  if (x.style.display === "none") {
+  findout("myDIV5");
+}
+
+function findout(questionname) {
+  console.log()
+  var x = document.getElementById(questionname);
+  if (x.style.display === "none" || x.style.display === "") {
     x.style.display = "block";
   } else {
     x.style.display = "none";
