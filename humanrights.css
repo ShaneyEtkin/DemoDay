@@ -190,3 +190,8 @@ body {
         position: relative;
         background-attachment: fixed;
     }
+
+.heading2 a {
+ color: floralwhite;
+ text-decoration: none;
+}
